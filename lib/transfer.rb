@@ -11,5 +11,11 @@ class Transfer
     @amount = acamount
   end
 
-  
+  def bothvalid?
+    if @sender.valid? && @receiver.valid?
+      return true
+    else
+      return false
+    end
+  end
 end
