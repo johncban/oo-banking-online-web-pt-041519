@@ -1,3 +1,5 @@
+require 'pry'
+
 class BankAccount
   attr_accessor :balance, :status
   attr_reader :name
@@ -13,6 +15,7 @@ class BankAccount
   end
 
   def display_balance
+    binding.pry
     "Your balance is $#{@balance}."
   end
 
