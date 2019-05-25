@@ -1,5 +1,4 @@
 class BankAccount
-  attr
 
   def initialize(acname)
     @name = acname
