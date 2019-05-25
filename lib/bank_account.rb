@@ -1,12 +1,12 @@
 class BankAccount
 
-  def initialize(accountname)
-    @name = accountname
+  def initialize(name)
+    @name = name
     @balance = 1000
     @status = "open"
   end
 
-  def accountname 
+  def accountname
     @name
   end
 
