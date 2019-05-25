@@ -1,6 +1,7 @@
 class BankAccount
+  attr
 
-  def initialize(name)
+  def initialize(accountname)
     @name = name
     @balance = 1000
     @status = "open"
