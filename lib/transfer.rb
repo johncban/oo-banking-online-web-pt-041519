@@ -10,4 +10,12 @@ class Transfer
     @status = "pending"
     @amount = acamount
   end
+
+  class valid?
+    if @amount > 0 && @sender != " " 
+      return true
+    else
+      return false
+    end
+  end
 end
