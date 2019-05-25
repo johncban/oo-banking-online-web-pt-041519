@@ -11,11 +11,5 @@ class Transfer
     @amount = acamount
   end
 
-  class valid?
-    if @amount > 0
-      return true
-    else
-      return false
-    end
-  end
+  
 end
