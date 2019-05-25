@@ -8,6 +8,5 @@ class Transfer
     @sender = acsender
     @receiver = acreceiver
     @status = "pending"
-    @transfer = 50
   end
 end
