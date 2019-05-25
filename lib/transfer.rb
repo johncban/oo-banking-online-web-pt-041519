@@ -12,7 +12,7 @@ class Transfer
   end
 
   class valid?
-    if @amount > 0 && @sender != " " 
+    if @amount > 0
       return true
     else
       return false
