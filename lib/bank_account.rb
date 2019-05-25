@@ -28,9 +28,8 @@ class BankAccount
   end
 
   def close_account
-    if @balnace == 0
+    if @balance == 0
         @status = "closed"
-        return @status
     end
   end
 
