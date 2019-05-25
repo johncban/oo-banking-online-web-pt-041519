@@ -18,4 +18,9 @@ class Transfer
       return false
     end
   end
+
+  def execute_transfer
+
+  end
+
 end
